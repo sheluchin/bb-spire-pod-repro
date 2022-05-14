@@ -1,0 +1,5 @@
+{:paths ["src/tasks"]
+ :pods {epiccastle/spire {:version "0.1.0-alpha.18"}}
+ :tasks
+ {:requires ([server])
+  bar (shell "date")}}
